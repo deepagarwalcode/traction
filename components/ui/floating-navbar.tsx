@@ -50,10 +50,10 @@ export const FloatingNav = ({
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        // animate={{
-        //   y: visible ? 0 : -100,
-        //   opacity: visible ? 1 : 0,
-        // }}
+        animate={{
+          y: visible ? 0 : -100,
+          opacity: visible ? 1 : 0,
+        }}
         transition={{
           duration: 0.2,
         }}
