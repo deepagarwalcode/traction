@@ -63,7 +63,7 @@ const images = [
 
 export function Work() {
   return (
-    <div className="mx-auto py-[12vh]">
+    <div className="mx-auto py-[12vh]" id="work">
       <div className="flex items-center gap-3 shadow-[0px_0px_40px_1px] shadow-dark_primary/40 bg-dark_secondary border-[1px] border-gray-700 w-max py-3 px-8 rounded-sm mx-auto mb-4">
         {/* <div className="h-3 w-3 bg-primary rounded-full "></div> */}
         <p className="text-base font-semibold">OUR PAST WORK</p>
@@ -72,12 +72,12 @@ export function Work() {
         Case Studies
         {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
       </h2>
-      <Carousel className="mx-auto max-w-[72vw]">
+      <Carousel className="hidden md:block mx-auto max-w-[72vw]">
         <CarouselContent>
           {images.map((image, index) => (
             <CarouselItem key={index}>
               <div className="p-4 rounded-lg pt-6 bg-dark_secondary cursor-pointer">
-                <p className="text-4xl font-bold text-center mb-4">
+                <p className="text-xl md:text-4xl font-bold text-center mb-4">
                   {image.title}
                 </p>
                 <Image
@@ -94,6 +94,22 @@ export function Work() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+      <div className="md:hidden flex flex-col gap-4 mx-2">
+        {images.map((image, index) => (
+          <div className="p-2 rounded-lg pt-4 bg-dark_secondary cursor-pointer" key={index}>
+            <p className="text-xl md:text-4xl font-bold text-center mb-4">
+              {image.title}
+            </p>
+            <Image
+              width={1000}
+              height={500}
+              src={image.imgUrl}
+              alt={image.title}
+              className="w-[92vw] object-contain h-[24vh] bg-white rounded-md py-2"
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <div className="flex items-center gap-[12vw] w-[80vw] mx-auto pb-12 border-b-2 border-gray-700">
+      <div className="flex flex-col md:flex-row md:items-center gap-[12vw] w-[80vw] mx-auto pb-12 border-b-2 border-gray-700">
         <p className="font-medium text-xl flex-1 ">
           You're one decision away from exploding your leads list.
         </p>
@@ -21,7 +21,7 @@ const Footer = () => {
           <p className="text-lg font-medium">LinkedIn</p>
         </div>
       </div>
-      <div className="w-[80vw] mx-auto pt-12 pb-12 flex items-center justify-between">
+      <div className="w-[80vw] mx-auto pt-12 pb-12 flex flex-col md:flex-row gap-8 md:gap-0 items-center justify-between">
         <div className="flex items-center gap-4">
           <div className="text-black bg-white w-12 h-12 flex items-center justify-center rounded-full cursor-pointer hover:bg-primary transition hover:text-white">
             <Twitter />

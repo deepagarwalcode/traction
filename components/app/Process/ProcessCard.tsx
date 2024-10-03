@@ -23,7 +23,7 @@ const ProcessCard = ({
   return (
     <div
       className={cn(
-        "flex flex-col lg:flex-row mb-12 lg:mb-8 box-border mt-[-4vh] px-4 pb-10 rounded-md justify-between gap-12 w-[72vw] lg:w-[40vw]",
+        "flex flex-col lg:flex-row mb-12 lg:mb-8 box-border mt-[-1vh] md:mt-[-4vh] pl-6 pr-0 md:px-4 pb-10 rounded-md justify-between gap-12 w-[72vw] lg:w-[40vw]",
         isLeft && "lg:flex-row-reverse ml-auto",
         hideCard() && "lg:opacity-0"
       )}
@@ -39,7 +39,7 @@ const ProcessCard = ({
         </p>
         <p
           className={cn(
-            "capitalize text-3xl lg:text-4xl font-extrabold",
+            "capitalize text-2xl lg:text-4xl font-extrabold",
             isLeft && "text-right"
           )}
         >
@@ -47,7 +47,7 @@ const ProcessCard = ({
         </p>
         <p
           className={cn(
-            "text-xl w-[36vw] text-gray-400 font-semibold",
+            "text-xl md:w-[36vw] text-gray-400 font-semibold",
             isLeft ? "text-right" : ""
           )}
         >

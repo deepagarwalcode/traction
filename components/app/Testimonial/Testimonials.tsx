@@ -4,7 +4,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonials = () => {
   return (
-    <div className="max-w-[100vw] bg-secondary pb-[12vh] lg:pt-[12vh] overflow-hidden relative">
+    <div className="max-w-[100vw] bg-secondary pb-[12vh] lg:pt-[12vh] overflow-hidden relative" id="testimonials">
       <div>
         <div className="flex items-center gap-3 shadow-[0px_0px_40px_1px] shadow-dark_primary/40 bg-dark_secondary border-[1px] border-gray-700 w-max py-3 px-8 rounded-sm mx-auto mb-4">
           {/* <div className="h-3 w-3 bg-primary rounded-full "></div> */}

@@ -49,7 +49,7 @@ const ServiceCard = ({ service }: { service: IService }) => (
 
 export function Services() {
   return (
-    <div className="py-[10vh]">
+    <div className="py-[10vh]" id="services">
       <div className="flex items-center gap-3 shadow-[0px_0px_40px_1px] shadow-dark_primary/40 bg-dark_secondary border-[1px] border-gray-700 w-max py-3 px-8 rounded-sm mx-auto mb-4">
         {/* <div className="h-3 w-3 bg-primary rounded-full "></div> */}
         <p className="text-base font-semibold">PROBLEMS WE SOLVE</p>
@@ -58,7 +58,7 @@ export function Services() {
         Services
         {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
       </h2>
-      <div className="grid grid-cols-3 w-[80vw] gap-8 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-[92vw] md:w-[80vw] gap-4 md:gap-8 mx-auto">
         {services.map((service, i) => (
           <ServiceCard service={service} key={i} />
         ))}

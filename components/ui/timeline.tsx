@@ -50,7 +50,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               {/* <h3 className="hidden lg:block text-xl lg:pl-20 lg:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
                 {item.title}
               </h3> */}
-              <div className="pl-12 w-full self-start">{item.content} </div>
+              <div className="pl-4 md:pl-12 w-full self-start">{item.content} </div>
             </div>
           </div>
         ))}

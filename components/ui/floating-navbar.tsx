@@ -11,6 +11,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight, Menu } from "lucide-react";
 import CTAButton from "../app/CTAButton";
+import NavSheet from "../app/NavSheet";
 
 export interface INavItem {
   name: string;
@@ -49,10 +50,10 @@ export const FloatingNav = ({
   return (
     <AnimatePresence mode="wait">
       <motion.div
-        animate={{
-          y: visible ? 0 : -100,
-          opacity: visible ? 1 : 0,
-        }}
+        // animate={{
+        //   y: visible ? 0 : -100,
+        //   opacity: visible ? 1 : 0,
+        // }}
         transition={{
           duration: 0.2,
         }}
@@ -70,7 +71,7 @@ export const FloatingNav = ({
               alt="EvolvFit"
               className="h-12 w-12 bg-primary"
             /> */}
-            <h1 className="hidden lg:block text-2xl font-bold uppercase">
+            <h1 className="text-2xl font-bold uppercase">
               TRACTION
             </h1>
           </div>
@@ -92,7 +93,7 @@ export const FloatingNav = ({
               </span>
             </Link>
           ))}
-          {/* <button className="text-lg font-semibold relative px-6 py-3 rounded-md bg-secondary  shadow-sm transition-all hover:shadow-primary/80 bg-[linear-gradient(110deg,#000103,46%,#1e2631,55%,#000103)] bg-[length:200%_100%] animate-shimmer">
+          {/* <button className="text-lg font-semibold relative px-6 py-3 rounded-d bg-secondary  shadow-sm transition-all hover:shadow-primary/80 bg-[linear-gradient(110deg,#000103,46%,#1e2631,55%,#000103)] bg-[length:200%_100%] animate-shimmer">
             <span className="hidden lg:flex items-center gap-3">
               Book Your Strategy Call
 
@@ -100,7 +101,10 @@ export const FloatingNav = ({
             <span className="lg:hidden flex items-center gap-2">Evolv Now</span>
             <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-primary to-transparent  h-px" />
           </button> */}
-          <CTAButton classes="text-lg py-6 px-4" line="Get In Touch" />
+          <CTAButton classes="hidden md:flex text-lg px-4" line="Get In Touch" />
+          <NavSheet navItems={navItems}>
+            <Menu className="md:hidden mx-2" size={28} />
+          </NavSheet>
         </div>
       </motion.div>
     </AnimatePresence>

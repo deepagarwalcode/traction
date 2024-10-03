@@ -21,13 +21,13 @@ export interface IProcess {
 
 const ProcessTimeline = () => {
   return (
-    <div className="bg-secondary pt-[8vh]">
+    <div className="bg-secondary pt-[8vh]" id="process">
       <div>
         <div className="flex items-center gap-3 shadow-[0px_0px_40px_1px] shadow-dark_primary/40 bg-dark_secondary border-[1px] border-gray-700 w-max py-3 px-8 rounded-sm mx-auto mb-4">
           {/* <div className="h-3 w-3 bg-primary rounded-full "></div> */}
           <p className="text-base font-semibold">OUR PROCESS</p>
         </div>
-        <h2 className=" text-center mb-8 lg:mb-4 text-4xl lg:text-8xl font-extrabold">
+        <h2 className=" text-center mb-0 md:mb-4 text-4xl lg:text-8xl font-extrabold">
           Timeline
           {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
         </h2>
@@ -38,7 +38,7 @@ const ProcessTimeline = () => {
           </span>
         </p> */}
       </div>
-      <div className="pt-[14vh] hero-bg pb-[0] rounded-xl flex mx-[4vw] bg-dark_secondary shadow-[inset_0px_0px_200px_100px] shadow-secondary">
+      <div className="pt-[8vh] md:pt-[14vh] hero-bg pb-[0] rounded-xl flex mx-[4vw] bg-dark_secondary shadow-[inset_0px_0px_200px_100px] shadow-secondary">
         <TimelineLeft
           data={processData.map((item, index) => {
             return {

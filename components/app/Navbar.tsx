@@ -3,20 +3,21 @@ import { FloatingNav } from "../ui/floating-navbar";
 
 export const navItems = [
   {
-    name: "Results",
-    link: "results",
-  },
-  {
-    name: "About",
-    link: "about",
+    name: "Services",
+    link: "services",
   },
   {
     name: "Process",
     link: "process",
   },
   {
-    name: "Pricing",
-    link: "pricing",
+    name: "Testimonials",
+    link: "testimonials",
+  },
+
+  {
+    name: "Case Studies",
+    link: "work",
   },
 ];
 
