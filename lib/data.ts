@@ -2,30 +2,30 @@ import { IProcess } from "@/components/app/Process/ProcessTimeline";
 
 export const processData: IProcess[] = [
     {
-        name: "Ideal Customer Research",
-        description: "You fill out our onboarding questionnaire to help us learn about your ICP. We conduct additional research to gain insights into your targets’ motivations and pain points.",
-        goal: "Putting the right message in front of the right person."
+        name: "Understand and research your dream customer.",
+        description: "You fill out our onboarding form to help us understand your Ideal Customer Persona (ICP_. We perform additional research and discuss this in detail to understand. “When does someone really need your service?”. Our goal? Giving an offer your specific dream customer cannot refuse.",
+        // goal: "Putting the right message in front of the right person."
     },
     {
-        name: "Email Infrastructure set-up",
-        description: "We set up multiple domains & mailboxes, configure technical records and start warming them up.",
-        goal: "Ensuring your emails land outside of SPAM."
+        name: "Email Infrastructure",
+        description: "We set up fresh mailboxes and domains which are formed on top of enterprise-grade IPs to ensure we maximise the number of emails which land in the prospect’s inbox. We use multiple vendors as safety mechanisms in the event that anything malfunctions so we are always inboxing.",
+        // goal: "Ensuring your emails land outside of SPAM."
     },
     {
-        name: "Craft your Email Sequence",
-        description: "We write messaging angles for your different customer profiles with relevant buying signals (e.g: surge in hiring, ad spend, opening of new offices, acquisition).",
-        goal: "Reaching the right company at the right time."
+        name: "Craft a Personalised Sales Playbook",
+        description: "We utilise 100+ different enrichment tools to ensure that we find the most amount of data we can leverage for different messaging angles for your different audiences. We look at specific triggers and signals using a variety of tools (low website ranking, hiring, high amount of traffic, ad spend.) We will form this into a collective sales playbook we will look to validate.",
+        // goal: "Reaching the right company at the right time."
     },
     {
-        name: "build your lead lists",
-        description: "We build contextual lead lists by looking at buying signals (e.g: surge in hiring, ad spend, opening of new offices).",
-        goal: "Reaching the right company at the right time."
+        name: "Emails at Scale",
+        description: "Once our emails have successfully warmed up and they have passed our deliverability checks, we will test our a number of hypotheses we have made based on the data collected. We will test a number of triggers and offers to see what lands. We will even help you automated the delivery of the offer. ",
+        // goal: "Reaching the right company at the right time."
 
     },
     {
-        name: "personalized messages at scale.",
-        description: "We leverage AI to tailor our messaging to each prospect. This lets us automate our outreach to potential clients —without compromising message quality.",
-        goal: "Flooding your calendar with opportunities."
+        name: "Close Deals",
+        description: "We will flood your inbox with Sales Qualified Leads of the prospects you want to work with, it’s now over to you to ensure you make the most of these leads and maximise the amount of deals closed. We offer some guidance on how we recommend you should sell to these leads. ",
+        // goal: "Flooding your calendar with opportunities."
     },
 ]
 
@@ -98,24 +98,20 @@ export interface IFaq {
 export const FAQs: IFaq[] =
     [
         {
-            question: "What is the pricing model like? Do I need to commit for several months at once?",
-            answer: "We charge a monthly retainer. At the start of our engagement, we want you to commit to the first three months, as we find this to be a reasonable time period to assess whether campaigns will be successful or not. After that, there is no long-term commitment or lock-in. Our goal is to win your business every month by providing a service you're happy to keep paying for."
+            question: "How does pricing work?",
+            answer: "Our pricing contains a setup fee along which is followed by a monthly retainer. During setup, we take 2-4 weeks to ensure our email infrastructure is programmed successfully, along with the setup of targeting lists and copy. "
         },
         {
-            question: "How quickly can you launch a campaign?",
-            answer: "From the moment you sign a contract, you should count 2 weeks before seeing your first campaign live. The first weeks are dedicated to building your email infrastructure. We'll set up secondary domains and mailboxes and warm these up. During the warm-up process, we build your lead lists and draft your email (&/or LinkedIn) sequences. This process usually takes 2 weeks – which means that we send our first outreach messages by week 3."
+            question: "How do I see what is going on?",
+            answer: "We offer you full access to our campaigns so you can see the full process and view every email that is going out. You can see live and real-time reporting when you login to our sending tool. We ensure you are happy with our copy created."
         },
         {
-            question: "How do you protect my domain reputation? Will my emails land in spam if we send too many?",
-            answer: "We don't use your primary domain to send our outreach emails. If you're doing so, you should stop already, as it can have some disastrous impact on your domain reputation overall. We create secondary domains that redirect to yours. We then create mailboxes to send our emails. Whatever happens with these domains – your main domain reputation is safe. Because we have a handful of different domains, we can scale our sending volume in a safe way."
+            question: "The offers are hard to deliver and take up time",
+            answer: "We intentionally create offers which take time for you deliver to each prospect, why? It increases the amount of leads we get. We help you automate these offers and set them up in a way which is possible."
         },
         {
-            question: "What visibility do I have on the process? Do I get to see the messages and who you're reaching out to?",
-            answer: "Once our first drafts are ready, we'll send them your way for review. We won't send any messages you're not happy with. Similarly, we send you the list of prospects we plan to contact before doing so. If you're not happy with our targeting criteria, we'll revise and recreate these lead lists."
+            question: "My sales team isn’t closing your leads",
+            answer: "Usually 50-70% of SQLs become meetings, and clients typically close 10-15% of these SQLs. So if we drove 15 SQLs then you should close 1 deal. We have a unique sales process we like to encourage in our client portfolio, we provide guidance on how you can execute this in the team."
         },
-        {
-            question: "How do I see what's going on with my campaign? Is there a way to see the number of emails you sent, the number of replies, and other tracking metrics?",
-            answer: "We create a client login in our sending tool. With this, you get a view of every relevant metric, such as: - The number of leads contacted - The number of emails we send - The percentage of leads that opened our emails - The percentage of positive replies. On top of that, we track additional metrics such as your email-to-lead ratio, contact-to-lead ratio and we further enrich results to get a sense of what are your best performing target segments."
-        }
 
     ];

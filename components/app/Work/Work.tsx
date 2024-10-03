@@ -69,7 +69,7 @@ export function Work() {
         <p className="text-base font-semibold">OUR PAST WORK</p>
       </div>
       <h2 className=" text-center mb-8 lg:mb-16 text-4xl lg:text-8xl font-extrabold">
-        Case Studies
+      Campaign Screenshots
         {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
       </h2>
       <Carousel className="hidden md:block mx-auto max-w-[72vw]">

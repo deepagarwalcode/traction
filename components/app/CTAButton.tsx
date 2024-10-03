@@ -12,7 +12,8 @@ const CTAButton = ({ classes, line }: { classes?: string; line?: string }) => {
           classes && classes
         )}
       >
-        <p>{line || "Book Your Strategy Call"}</p>
+        {/* <p>{line || "Book Your Strategy Call"}</p> */}
+        <p>{"Turn Sales On"}</p>
       </Button>
     </Link>
   );

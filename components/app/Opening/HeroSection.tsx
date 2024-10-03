@@ -14,8 +14,8 @@ const Opening = () => (
       Turn outbound into your <br /> most valuable channel
     </h1>
     <p className="md:text-2xl px-8">
-      We flood you with opportunities so you can focus on{" "}
-      <span className="font-bold">closing deals.</span>{" "}
+    We send emails with offers your prospects{" "}
+      <span className="font-bold">can’t refuse.</span>{" "}
     </p>
 
     <CTAButton />

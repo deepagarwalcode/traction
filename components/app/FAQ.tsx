@@ -14,7 +14,7 @@ export interface IFaq {
 
 const FAQ = () => {
   return (
-    <div className="w-[80vw] lg:w-[80vw] mx-auto py-[12vh] pt-[8vh] bg-secondary">
+    <div className="w-[80vw] lg:w-[60vw] mx-auto py-[12vh] pt-[8vh] bg-secondary">
       <div>
         <h2 className="hidden md:block text-center mb-12 text-4xl lg:text-6xl font-extrabold">
           Frequently Asked{" "}
