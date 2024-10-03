@@ -6,8 +6,8 @@ const Opening = () => (
   <div className="w-full flex flex-col items-center gap-6">
     <div className="flex items-center gap-4 shadow-[0px_0px_40px_1px] shadow-dark_primary/40 bg-dark_secondary border-[1px] border-gray-700 w-max py-4 px-6 rounded-full">
       <div className="h-4 w-4 bg-primary rounded-full"></div>
-      <p className="text-xs md:text-base">
-        FOR B2B COMPANIES ABOVE &gt;$100K/MO IN REVENUE
+      <p className="text-xs md:text-base md:font-medium">
+        FOR B2B SERVICES &gt; 50K MRR
       </p>
     </div>
     <h1 className="capitalize text-3xl md:text-5xl lg:text-8xl font-extrabold text-center">
