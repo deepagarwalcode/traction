@@ -2,7 +2,9 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { cn } from "@/lib/utils";
 import {
+  IconBrandCodepen,
   IconBrandZapier,
+  IconChartDots3,
   IconProgress,
   IconWebhook,
 } from "@tabler/icons-react";
@@ -17,26 +19,26 @@ interface IService {
 const services: IService[] = [
   {
     icon: <IconBrandZapier className="h-10 w-10" />,
-    title: "Manual Tasks are reducing my team's efficiency",
+    title: "Implementation of enterprise-grade sending IPs",
     description:
-      "We implement the latest and best outreach tech stack so that your team can focus on generating revenue.",
+      "We install our own email infrastructure into your campaigns so you can maximise deliverability, we use multiple vendors to ensure we are always inboxing.",
   },
   {
-    icon: <IconWebhook className="h-10 w-10" />,
-    title: "None of our GTM channels talk to each other",
+    icon: <IconBrandCodepen className="h-10 w-10" />,
+    title: "AI-Driven Prospecting",
     description:
-      "We synchronize your outreach channels with custom automations to improve your go to market performance.",
+      "We use the latest AI models to nail our prospecting model ensuring every lead is on-target and we maximise the necessary knowledge on each prospect, integrating triggers and hiring signals.",
   },
   {
-    icon: <IconProgress className="h-10 w-10" />,
-    title: "Leads flow into our CRM just to collect dust",
+    icon: <IconChartDots3 className="h-10 w-10" />,
+    title: "Scaled Email Sending",
     description:
-      "The leads sitting in your CRM need to be re-targeted and segmented. It's not outbound vs inbound, it should be a combination of both. ",
+      "We use the most advanced sending tools which gives us full control over our sending cadence. We send up to 4k emails per day and average a 0.8% positive response rate.",
   },
 ];
 
 const ServiceCard = ({ service }: { service: IService }) => (
-  <CardSpotlight className="bg-dark_secondary/40 border-gray-800">
+  <CardSpotlight className="bg-dark_secondary/40 border-gray-800 pr-8">
     <div className="flex flex-col gap-8">
       <div className="z-[20] bg-gradient-to-r from-primary to-dark_primary text-white h-20 w-20 flex items-center justify-center rounded-full">
         {service.icon}
@@ -55,7 +57,7 @@ export function Services() {
         <p className="text-base font-semibold">PROBLEMS WE SOLVE</p>
       </div>
       <h2 className=" text-center mb-8 lg:mb-12 text-4xl lg:text-8xl font-extrabold">
-        Services
+        Our Service
         {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 w-[92vw] md:w-[80vw] gap-4 md:gap-8 mx-auto">

@@ -47,6 +47,30 @@ const NavSheet = ({
                 </SheetClose>
               </Link>
             ))}
+            <Link
+              href={
+                "https://tractionagency.notion.site/Methodology-115a0a088bef80069d99cbaed3854cfa"
+              }
+              target="_blank"
+              className={cn(
+                "relative text-neutral-50 items-center space-x-1  hover:text-neutral-300"
+              )}
+            >
+              <span className="font-semibold sm:block text-lg">
+                Our Success Framework
+              </span>
+            </Link>
+            <Link
+              href={"https://aaron-reid-s-school.teachable.com/"}
+              target="_blank"
+              className={cn(
+                "relative text-neutral-50 items-center space-x-1  hover:text-neutral-300"
+              )}
+            >
+              <span className="font-semibold sm:block text-lg">
+                Learn For Free
+              </span>
+            </Link>
           </div>
           <CTAButton classes="mt-10" />
         </SheetContent>

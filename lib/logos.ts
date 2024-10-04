@@ -1,10 +1,8 @@
-export const test_logos = [
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Marriott-2.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Regal.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logo2_MP-Electrolux-1.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Gatorade.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Keurig.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Alteon.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Polestar.png",
-    "https://prophet.com/wp-content/uploads/2022/05/Website_Relaunch_Logos2_MP-Tmobile.png",
+export const logos = [
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049870/Traction/1_jxspe7.svg",
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049871/Traction/2_zgwufv.svg",
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049870/Traction/3_kpdvzv.svg",
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049869/Traction/4_uqqygj.svg",
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049870/Traction/5_e0cp5o.svg",
+    "https://res.cloudinary.com/dozvnnjok/image/upload/v1728049870/Traction/6_crxn86.svg",
   ];

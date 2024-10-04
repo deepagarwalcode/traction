@@ -71,9 +71,7 @@ export const FloatingNav = ({
               alt="EvolvFit"
               className="h-12 w-12 bg-primary"
             /> */}
-            <h1 className="text-2xl font-bold uppercase">
-              TRACTION
-            </h1>
+            <h1 className="text-2xl font-bold uppercase">TRACTION</h1>
           </div>
         </Link>
         <div className="flex items-center lg:gap-8 gap-4">
@@ -93,17 +91,33 @@ export const FloatingNav = ({
               </span>
             </Link>
           ))}
-          {/* <button className="text-lg font-semibold relative px-6 py-3 rounded-d bg-secondary  shadow-sm transition-all hover:shadow-primary/80 bg-[linear-gradient(110deg,#000103,46%,#1e2631,55%,#000103)] bg-[length:200%_100%] animate-shimmer">
-            <span className="hidden lg:flex items-center gap-3">
-              Book Your Strategy Call
-
+          <Link
+            href={
+              "https://tractionagency.notion.site/Methodology-115a0a088bef80069d99cbaed3854cfa"
+            }
+            target="_blank"
+            className={cn(
+              "hidden lg:flex  relative text-neutral-50 items-center space-x-1  hover:text-neutral-300"
+            )}
+          >
+            <span className="hidden font-semibold sm:block text-lg">
+              Our Success Framework
             </span>
-            <span className="lg:hidden flex items-center gap-2">Evolv Now</span>
-            <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-primary to-transparent  h-px" />
-          </button> */}
-          <CTAButton classes="hidden md:flex text-lg px-4" line="Get In Touch" />
+          </Link>
+          <Link
+            href={"https://aaron-reid-s-school.teachable.com/"}
+            target="_blank"
+            className={cn(
+              "hidden lg:flex  relative text-neutral-50 items-center space-x-1  hover:text-neutral-300"
+            )}
+          >
+            <span className="hidden font-semibold sm:block text-lg">
+              Learn For Free
+            </span>
+          </Link>
+          <CTAButton classes="hidden md:flex md:text-lg px-4 md:py-6" />
           <NavSheet navItems={navItems}>
-            <Menu className="md:hidden mx-2" size={28} />
+            <Menu className="lg:hidden mx-2" size={28} />
           </NavSheet>
         </div>
       </motion.div>
