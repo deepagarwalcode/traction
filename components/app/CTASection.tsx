@@ -16,9 +16,9 @@ const CTASection = () => {
           Ready to flood your calendar
           <br /> with qualified leads?
         </p>
-        <p className="text-lg px-8 md:px-0 md:text-2xl text-center font-base">
+        {/* <p className="text-lg px-8 md:px-0 md:text-2xl text-center font-base">
           Book a meeting and get our playbook for FREE.
-        </p>
+        </p> */}
         <CTAButton />
       </AuroraBackground>
 

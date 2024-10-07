@@ -28,11 +28,18 @@ const config = {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: '#BC18E8',
+					// DEFAULT: '#BC18E8',
+					// DEFAULT: '#BD3453',
+					DEFAULT: '#4E45FF',
+					
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				dark_primary: {
-					DEFAULT: '#7900CA',
+					// DEFAULT: '#7900CA',
+					// DEFAULT: '#e72653',
+					// DEFAULT: '#BD3453',
+					DEFAULT: '#4E45FF',
+
 					foreground: 'hsl(var(--primary-foreground))'
 				},
 				secondary: {

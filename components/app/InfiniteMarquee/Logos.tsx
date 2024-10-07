@@ -14,7 +14,7 @@ const Logos = () => {
           <div className="slider">
             {logos.map((logo, index) => (
               <img
-                className="h-12 md:h-30 max-w-96 object-contain mx-4  md:mx-12 md:px-2 filter brightness-0 invert"
+                className="h-12 md:h-30 max-w-96 object-contain mx-4  md:mx-12 md:px-2"
                 src={logo}
                 alt={`logo-${index}`}
                 key={index}
@@ -25,7 +25,7 @@ const Logos = () => {
           <div className="slider">
             {logos.map((logo, index) => (
               <img
-                className="h-12 md:h-30 max-w-96 object-contain  mx-4 md:mx-12 md:px-2 filter brightness-0 invert"
+                className="h-12 md:h-30 max-w-96 object-contain  mx-4 md:mx-12 md:px-2"
                 src={logo}
                 alt={`logo-${index}`}
                 key={index}

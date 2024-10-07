@@ -28,7 +28,7 @@ const ProcessTimeline = () => {
           <p className="text-base font-semibold">OUR PROCESS</p>
         </div>
         <h2 className=" text-center mb-0 md:mb-4 text-4xl lg:text-8xl font-extrabold">
-          Timeline
+          Your Path to $$$
           {/* <div className="absolute h-2 lg:h-[10px] right-0 bg-primary w-full rounded-sm"></div> */}
         </h2>
         {/* <p className="text-center font-bold text-lg px-4 lg:px-0 lg:text-2xl mt-2 mb-24">

@@ -12,6 +12,7 @@ import Image from "next/image";
 import { ArrowUpRight, Menu } from "lucide-react";
 import CTAButton from "../app/CTAButton";
 import NavSheet from "../app/NavSheet";
+import traction_logo from "@/public/tl2.svg"
 
 export interface INavItem {
   name: string;
@@ -64,14 +65,15 @@ export const FloatingNav = ({
       >
         <Link href={"/"} onClick={(e) => scrollToSection(e, "home")}>
           <div className="flex items-center gap-4">
-            {/* <Image
-              src={""}
+          {/* <h1 className="text-4xl font-extrabold">traction</h1> */}
+
+            <Image
+              src={traction_logo}
               height={500}
               width={500}
-              alt="EvolvFit"
-              className="h-12 w-12 bg-primary"
-            /> */}
-            <h1 className="text-2xl font-bold uppercase">TRACTION</h1>
+              alt="Traction Agency"
+              className="h-12 w-max"
+            />
           </div>
         </Link>
         <div className="flex items-center lg:gap-8 gap-4">

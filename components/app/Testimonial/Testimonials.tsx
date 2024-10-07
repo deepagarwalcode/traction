@@ -14,7 +14,7 @@ const Testimonials = () => {
           <p className="text-base font-semibold">WHAT PEOPLE SAY</p>
         </div>
         <h2 className=" text-center mb-8 lg:mb-16 text-4xl lg:text-8xl font-extrabold">
-          Testimonials
+          Our Supporters
         </h2>
       </div>
       {/* <div className="all-testimonials overflow-hidden ">
