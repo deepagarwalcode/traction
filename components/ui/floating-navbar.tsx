@@ -12,7 +12,7 @@ import Image from "next/image";
 import { ArrowUpRight, Menu } from "lucide-react";
 import CTAButton from "../app/CTAButton";
 import NavSheet from "../app/NavSheet";
-import traction_logo from "@/public/tl2.svg"
+import traction_logo from "@/public/tl2.svg";
 
 export interface INavItem {
   name: string;
@@ -65,17 +65,23 @@ export const FloatingNav = ({
       >
         <Link href={"/"} onClick={(e) => scrollToSection(e, "home")}>
           <div className="flex items-center gap-4">
-          {/* <h1 className="text-4xl font-extrabold">traction</h1> */}
+            {/* <h1 className="text-4xl font-extrabold">traction</h1> */}
 
             <Image
               src={traction_logo}
               height={500}
               width={500}
               alt="Traction Agency"
-              className="h-12 w-max"
+              className="h-8 w-28  md:w-max md:h-12 mr-auto "
             />
+            {/* <img
+              src={"https://res.cloudinary.com/dozvnnjok/image/upload/v1728409136/Traction/tl2_exlclu.svg"}
+              className="min-h-6 max-h-6 mr-auto w-max"
+              alt=""
+            /> */}
           </div>
         </Link>
+        {/* <div className="flex-1 h-2 w-full bg-blue-600"></div> */}
         <div className="flex items-center lg:gap-8 gap-4">
           {navItems.map((navItem: INavItem, idx: number) => (
             <Link
