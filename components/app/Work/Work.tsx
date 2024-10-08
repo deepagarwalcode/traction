@@ -11,6 +11,11 @@ import Image from "next/image";
 
 const images = [
   {
+    title: "141 SQLs in 38 Days.",
+    imgUrl:
+      "https://res.cloudinary.com/dozvnnjok/image/upload/v1728289689/Traction/Screenshot_2024-10-07_at_09.01.30_vshqnc.png",
+  },
+  {
     title: "10 qualified leads in 24 hours.",
     imgUrl:
       "https://res.cloudinary.com/dozvnnjok/image/upload/v1728289173/Traction/image04_dn3jve.jpg",
@@ -66,11 +71,7 @@ const images = [
     imgUrl:
       "https://res.cloudinary.com/dozvnnjok/image/upload/v1728289419/Traction/image09_pnwcnk.jpg",
   },
-  {
-    title: "141 SQLs in 38 Days.",
-    imgUrl:
-      "https://res.cloudinary.com/dozvnnjok/image/upload/v1728289689/Traction/Screenshot_2024-10-07_at_09.01.30_vshqnc.png",
-  },
+
   {
     title: "Practicing what we preach internally :-)",
     imgUrl:
